@@ -1,10 +1,14 @@
 import React from 'react'
+import { useState } from 'react'
 import './Nav.scss';
+import SearchBox from '../SearchBox/SearchBox';
 
 import menu from "../../assets/images/menu-icon.png"
 
 
-const Nav = () => {
+const Nav = (props) => {
+    const {handleInput} = props;
+
 
   return (
     <div>
@@ -17,7 +21,7 @@ const Nav = () => {
                 </div>
 
                 <div className='nav__icons--search'>
-                    <input placeholder='Search' className='search-bar'/>
+                    <SearchBox handleInput={handleInput}/>
                 </div>
             </div>
 

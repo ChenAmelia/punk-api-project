@@ -2,10 +2,7 @@ import React from 'react'
 import "./Main.scss"
 import CardList from '../CardList/CardList'
 
-const Main = (props) => {
-
-    const {beersDisplay} = props
-
+const Main = ({beersDisplay} ) => {
 
   return (
     <div className="main">
