@@ -1,0 +1,60 @@
+@use "../../assets//sass/variables.scss" as *;
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+   
+
+    &__icons {
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+
+            
+
+    }
+
+    &__icons--menu {
+        padding:20px;
+        
+
+        .black-menu {
+            width: 30px;
+        }
+
+    }
+
+    &__icons--search {
+        padding:23px 5px;
+
+        .search-bar {
+            margin: 0px 10px;
+            height: 20px;
+            border: 2px solid $color-black;
+            border-radius: 8px;
+        }
+       
+
+    }
+
+    &__title {
+        padding:20px;
+        display: flex;
+        align-items: flex-end;
+        font-display: $font-family;
+
+        .title {
+            margin: 0px;
+            font-display: $font-family;
+            color: $secondary-color;
+        }
+        
+        
+
+    }
+
+}
