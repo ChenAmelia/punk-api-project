@@ -25,6 +25,7 @@ const App = () => {
     setBeers(data)
   }
 
+  //Define the input text and convert to lowercase, and returna new array which match the search result
   const handleInput = (event) => {
     const cleanInput = event.target.value.toLowerCase();
     setSearchItems(cleanInput);
@@ -38,6 +39,24 @@ const App = () => {
       setFilteredItems(beers)
     }
   };
+
+  //Define the function of check box, display different arraies based on the value
+  const handleCheckBox = (event) => {
+
+    if (event.target.checked) {
+
+      if (event.target.value === "abv") {
+        setBeers(beers.filter((beer) => beer.abv > 6))
+        console.log(setBeers);
+      } else if () {
+
+
+      } else if () {
+
+      }
+    }
+
+  }
 
   return (
     <div className="app">

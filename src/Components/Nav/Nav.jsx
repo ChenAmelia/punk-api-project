@@ -17,13 +17,12 @@ const Nav = (props) => {
         setShowMenu(!showMenu);
     }
 
-
   return (
     <div>
 
         <div className='nav'>
 
-            {showMenu && <FiltersList toggleMenu={toggleMenu}/>}
+            {showMenu && <FiltersList toggleMenu={toggleMenu} />}
 
             <div className='nav__icons'>
 
