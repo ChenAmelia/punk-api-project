@@ -48,10 +48,6 @@ const App = () => {
        {beers &&  <Main beersDisplay={searchItems.length < 1 ? beers : filteredItems}/>}
       </div>
 
-    
-
-    
-
     </div>
   )
 }

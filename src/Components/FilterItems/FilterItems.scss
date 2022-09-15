@@ -1,0 +1,30 @@
+@use "../../assets//sass/variables.scss" as *;
+
+.filter {
+    background-color: rgb(133, 128, 107);
+    position: fixed;
+    left: 5px;
+    right: 5px;
+    z-index: 5;
+    border-radius: 10px;
+    opacity: 0.9;
+    color: black;
+    font-family: $primary-font;
+    font-size: 20px;
+    font-weight:bolder;
+    text-align: center;
+
+    &__content--img {
+        display: flex;
+        align-self: flex-start;
+        margin: 15px;
+
+    }
+
+    &__content--text {
+
+    }
+
+
+}
+
