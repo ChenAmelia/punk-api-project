@@ -9,7 +9,7 @@ import logo from "../../assets/images/logo.png"
 
 
 const Nav = (props) => {
-    const {handleInput} = props;
+    const {handleInput, handleCheckBox} = props;
 
     const [showMenu, setShowMenu] = useState(false);
 
@@ -22,7 +22,7 @@ const Nav = (props) => {
 
         <div className='nav'>
 
-            {showMenu && <FiltersList toggleMenu={toggleMenu} />}
+            {showMenu && <FiltersList toggleMenu={toggleMenu} handleCheckBox ={handleCheckBox} />}
 
             <div className='nav__icons'>
 
@@ -31,7 +31,7 @@ const Nav = (props) => {
                 </div>
 
                 <div className='nav__icons--search'>
-                    <SearchBox handleInput={handleInput}/>
+                    <SearchBox handleInput={handleInput} />
                 </div>
             </div>
 

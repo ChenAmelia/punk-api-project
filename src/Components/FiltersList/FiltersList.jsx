@@ -4,12 +4,12 @@ import FilterItems from '../FilterItems/FilterItems'
 
 const FiltersList = (props) => {
 
-    const {toggleMenu} = props
+    const {toggleMenu, handleCheckBox} = props
 
 
   return (
     <div>
-        <FilterItems toggleMenu={toggleMenu}/>
+        <FilterItems toggleMenu={toggleMenu} handleCheckBox ={handleCheckBox} />
     </div>
   )
 }

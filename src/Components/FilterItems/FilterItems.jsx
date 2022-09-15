@@ -4,7 +4,7 @@ import "./FilterItems.scss"
 import blackcross from "../../assets/images/black-cross.png"
 
 const FilterItems = (props) => {
-    const {toggleMenu} = props;
+    const {toggleMenu, handleCheckBox} = props;
 
   return (
     <div className='filter'>
@@ -18,14 +18,23 @@ const FilterItems = (props) => {
             />
 
             <div className='filter__content--text'>
-                High ABV > 6.0% <input type="checkbox" value="abv"/> <br />
-                Classic Range <input type="checkbox" value="range"/> <br />
-                Acidic <input type="checkbox" value="acidic"/>
+
+                <label>
+                    <input onChange={handleCheckBox}  type="checkbox" value="abv"/> 
+                    High ABV > 6.0% <br />
+                </label>
+
+                <label>
+                    <input onChange={handleCheckBox} type="checkbox" value="classicRange"/> 
+                    Classic Range <br />
+                </label>
+
+                <label> 
+                    <input onChange={handleCheckBox} type="checkbox" value="acidic"/> 
+                    Ph less than 4
+                </label>
+               
             </div>
-
-            
-
-
 
         </div>
         

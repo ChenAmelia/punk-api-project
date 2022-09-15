@@ -25,8 +25,9 @@ const App = () => {
     setBeers(data)
   }
 
-  //Define the input text and convert to lowercase, and returna new array which match the search result
+  //Define the input text and convert to lowercase, and return a new array which match the search result
   const handleInput = (event) => {
+
     const cleanInput = event.target.value.toLowerCase();
     setSearchItems(cleanInput);
 
@@ -40,20 +41,26 @@ const App = () => {
     }
   };
 
-  //Define the function of check box, display different arraies based on the value
+  //Define the function of checkbox, display different arraies based on the value
+  //"first_brewed":"09/2007"
   const handleCheckBox = (event) => {
 
     if (event.target.checked) {
 
       if (event.target.value === "abv") {
+
         setBeers(beers.filter((beer) => beer.abv > 6))
-        console.log(setBeers);
-      } else if () {
+      } 
 
+      else if (event.target.value === "classicRange") {
+        setBeers(beers.filter((beer) => beer.first_brewed.slice(3) < 2010))
+      } 
 
-      } else if () {
-
-      }
+      else if (event.target.value === "acidic") {
+        setBeers(beers.filter((beer) => beer.ph < 4))
+      } 
+    } else {
+      getBeers();
     }
 
   }
@@ -61,10 +68,10 @@ const App = () => {
   return (
     <div className="app">
 
-      <Nav handleInput = {handleInput}/>
+      <Nav handleInput = {handleInput} handleCheckBox ={handleCheckBox}/>
 
       <div className="cardContainer">
-       {beers &&  <Main beersDisplay={searchItems.length < 1 ? beers : filteredItems}/>}
+       <Main beersDisplay={searchItems.length < 1 ? beers : filteredItems}/>
       </div>
 
     </div>

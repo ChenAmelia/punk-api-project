@@ -3,6 +3,7 @@ import "./Card.scss"
 
 const Card = (props) => {
   const { img, name, tagline, abv, description} = props
+  
   return (
 
     <div className='card'>
