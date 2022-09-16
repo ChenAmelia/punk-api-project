@@ -28,6 +28,9 @@ There are two functions on the website: search(search box) and filter(checkbox).
 
 ## Example of use
 
+This is the original page.
+![Screenshot 2022-09-16 at 13 13 55](https://user-images.githubusercontent.com/109622201/190636890-3b9c6495-136d-466e-ba21-752d29cc8757.png)
+
 
 
 ## Project Status
