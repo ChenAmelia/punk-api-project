@@ -6,7 +6,7 @@
 * [Project Status](#project-status)
 
 ## Introduction
-This is a ..
+This is a punk API project
 
 Here's the link of Github repository: 
 Here's the link of live page: 
