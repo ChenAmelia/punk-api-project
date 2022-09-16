@@ -12,7 +12,7 @@
     "react-scripts": "5.0.1",
     "sass": "^1.54.9",
     "web-vitals": "^2.1.4",
-    "homepage":"http://chen_amelia.github.io/punk-api-project"
+    "homepage":"http://chenamelia.github.io/punk-api-project"
   },
   "scripts": {
     "start": "react-scripts start",
