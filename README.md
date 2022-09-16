@@ -41,7 +41,8 @@ When click the menu image on the top-left corner, the menu will be dragged down 
 <img width="300" src= "https://user-images.githubusercontent.com/109622201/190638254-d09e2323-a1ae-43d0-b365-b5f0c035504b.png">
 
 Users can filter beers which abv is higher than 6.0%, firsted brewed before 2010, and the ph less than 4.
-<img width="300" src= "(https://user-images.githubusercontent.com/109622201/190638701-393cf761-2ac3-48be-b3b1-6e985ddb0650.png">
+
+<img width="300" src= "https://user-images.githubusercontent.com/109622201/190638701-393cf761-2ac3-48be-b3b1-6e985ddb0650.png">
 <img width="300" src= "https://user-images.githubusercontent.com/109622201/190638708-9c2b9ad4-2ad7-44d7-a85a-a6ba2ac55db4.png">
 <img width="300" src= "https://user-images.githubusercontent.com/109622201/190638716-15524954-2c92-455d-a219-aed02ad36aa4.png">
 
