@@ -30,11 +30,29 @@ There are two functions on the website: search(search box) and filter(checkbox).
 
 This is the original page.
 
-<img width="250" src= "https://user-images.githubusercontent.com/109622201/190637128-160f792e-d8e1-4092-b50d-81c5db9a730f.png">
+<img width="300" src= "https://user-images.githubusercontent.com/109622201/190637128-160f792e-d8e1-4092-b50d-81c5db9a730f.png">
 
+When input beer's name in the search box, the page will display the the beer qualified. And the search box allows to input both capital letter and lowercase.
 
+<img width="300" src= "https://user-images.githubusercontent.com/109622201/190637828-a8d5f1f6-8a85-4818-92b5-05fc76dd69db.png">
 
+When click the menu image on the top-left corner, the menu will be dragged down and shows all three filters in it.
+
+<img width="300" src= "https://user-images.githubusercontent.com/109622201/190638254-d09e2323-a1ae-43d0-b365-b5f0c035504b.png">
+
+Users can filter beers which abv is higher than 6.0%, firsted brewed before 2010, and the ph less than 4.
+
+<img width="300" src= "(https://user-images.githubusercontent.com/109622201/190638701-393cf761-2ac3-48be-b3b1-6e985ddb0650.png">
+<img width="300" src= "https://user-images.githubusercontent.com/109622201/190638708-9c2b9ad4-2ad7-44d7-a85a-a6ba2ac55db4.png">
+<img width="300" src= "https://user-images.githubusercontent.com/109622201/190638716-15524954-2c92-455d-a219-aed02ad36aa4.png">
+
+And when unclick the checkbox, the page will display the original page.
 
 
 ## Project Status
+Currently this page can only run search and filter functions. In the future, I want to optimize the filter function. First, add more exponents. Second, I will replace the checkbox with a slider, allowing users to arbitrarily select the indicators they want to filter.
+
+In the subsequent revisions, the router function will be added to the page. When clicking on a beer card, a separate card of the beer will be displayed, and more information about the beer will be added to the separate card.
+
+The design of the current page is mainly aimed at mobile phone users, and in the future, it will be adjusted to responsive websites which can adapt to most screens.
 
