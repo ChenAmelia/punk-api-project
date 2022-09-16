@@ -48,7 +48,6 @@ Users can filter beers which abv is higher than 6.0%, firsted brewed before 2010
 
 And when unclick the checkbox, the page will display the original page.
 
-
 ## Project Status
 Currently this page can only run search and filter functions. In the future, I want to optimize the filter function. First, add more exponents. Second, I will replace the checkbox with a slider, allowing users to arbitrarily select the indicators they want to filter.
 
