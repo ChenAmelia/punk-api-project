@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.af072fa0.css",
-    "main.js": "/static/js/main.aa745e2a.js",
-    "static/js/787.338a2a18.chunk.js": "/static/js/787.338a2a18.chunk.js",
-    "static/media/logo.png": "/static/media/logo.541975d13d7c9b4f1d0a.png",
-    "index.html": "/index.html",
-    "main.af072fa0.css.map": "/static/css/main.af072fa0.css.map",
-    "main.aa745e2a.js.map": "/static/js/main.aa745e2a.js.map",
-    "787.338a2a18.chunk.js.map": "/static/js/787.338a2a18.chunk.js.map"
+    "main.css": "/punk-api-project/static/css/main.af072fa0.css",
+    "main.js": "/punk-api-project/static/js/main.a8f83a1e.js",
+    "static/js/787.338a2a18.chunk.js": "/punk-api-project/static/js/787.338a2a18.chunk.js",
+    "static/media/logo.png": "/punk-api-project/static/media/logo.541975d13d7c9b4f1d0a.png",
+    "index.html": "/punk-api-project/index.html",
+    "main.af072fa0.css.map": "/punk-api-project/static/css/main.af072fa0.css.map",
+    "main.a8f83a1e.js.map": "/punk-api-project/static/js/main.a8f83a1e.js.map",
+    "787.338a2a18.chunk.js.map": "/punk-api-project/static/js/787.338a2a18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af072fa0.css",
-    "static/js/main.aa745e2a.js"
+    "static/js/main.a8f83a1e.js"
   ]
 }
