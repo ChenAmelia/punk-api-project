@@ -21,7 +21,7 @@ const FilterItems = (props) => {
 
                 <label className='filter__content--filter'>
                     <input onChange={handleCheckBox}  type="checkbox" value="abv" /> 
-                    High ABV > 6.0% <br />
+                    High ABV higher than 6.0% <br />
                 </label>
 
                 <label className='filter__content--filter'>
