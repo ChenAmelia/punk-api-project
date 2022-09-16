@@ -29,7 +29,10 @@ There are two functions on the website: search(search box) and filter(checkbox).
 ## Example of use
 
 This is the original page.
-![Screenshot 2022-09-16 at 13 13 55](https://user-images.githubusercontent.com/109622201/190636890-3b9c6495-136d-466e-ba21-752d29cc8757.png)
+
+<img width="250" src= "https://user-images.githubusercontent.com/109622201/190637128-160f792e-d8e1-4092-b50d-81c5db9a730f.png">
+
+
 
 
 
