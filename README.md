@@ -20,7 +20,7 @@ The project is created with:
 
 The website was built using React and JSX. The page was separated into 7 components and app.jsx to pass through necessary parameters to different components. 
 
-The basic and crucial part is using the useEffect hook to fetch data. Then use the async function to pass data into setBeers function. Use fetch to ensure the data is fetched and continue to pass data as json file to “data”. Then use useState to preserve data in “beers”. And now the database has been preserved in “beers” as an array.
+The basic and crucial part is using the useEffect hook to fetch data. Then use the async function to pass data into setBeers function. Use await to ensure the data is fetched and continue to pass data as json file to “data”. Then use useState to preserve data in “beers”. And now the database has been preserved in “beers” as an array.
 
 Passing through the data to Cardlist and using map function to get all elements in array. And pass through different values we need for building the card such as name, tagline and abv. The Key value is necessary here, but in Card.jsx, the key value should not be passed. I build the card and style it in Card component.
 
