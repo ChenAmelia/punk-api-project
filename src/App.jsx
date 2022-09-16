@@ -31,18 +31,25 @@ const App = () => {
     const cleanInput = event.target.value.toLowerCase();
     setSearchItems(cleanInput);
 
-    if (searchItems !== "") {
+    if (searchItems == "") {
+      setFilteredItems(beers)
+    } 
+    
+    else if (searchItems !== "") {
       const newArr = beers.filter((beer) => {
         return beer.name.toLowerCase().includes(searchItems);
       });
       setFilteredItems(newArr);
-    } else {
+    } 
+    
+    else {
       setFilteredItems(beers)
     }
   };
 
   //Define the function of checkbox, display different arraies based on the value
   //"first_brewed":"09/2007"
+
   const handleCheckBox = (event) => {
 
     if (event.target.checked) {
@@ -55,6 +62,7 @@ const App = () => {
       else if (event.target.value === "classicRange") {
         setBeers(beers.filter((beer) => beer.first_brewed.slice(3) < 2010))
       } 
+      //brewed before 2010: https://api.punkapi.com/v2/beers?brewed_before=01-2010
 
       else if (event.target.value === "acidic") {
         setBeers(beers.filter((beer) => beer.ph < 4))

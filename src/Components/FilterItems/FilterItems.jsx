@@ -19,18 +19,18 @@ const FilterItems = (props) => {
 
             <div className='filter__content--text'>
 
-                <label>
-                    <input onChange={handleCheckBox}  type="checkbox" value="abv"/> 
+                <label className='filter__content--filter'>
+                    <input onChange={handleCheckBox}  type="checkbox" value="abv" /> 
                     High ABV > 6.0% <br />
                 </label>
 
-                <label>
-                    <input onChange={handleCheckBox} type="checkbox" value="classicRange"/> 
+                <label className='filter__content--filter'>
+                    <input onChange={handleCheckBox} type="checkbox" value="classicRange" /> 
                     Classic Range <br />
                 </label>
 
-                <label> 
-                    <input onChange={handleCheckBox} type="checkbox" value="acidic"/> 
+                <label className='filter__content--filter'> 
+                    <input onChange={handleCheckBox} type="checkbox" value="acidic" /> 
                     Ph less than 4
                 </label>
                
